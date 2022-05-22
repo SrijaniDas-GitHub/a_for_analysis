@@ -64,3 +64,75 @@ while option < 5:
     else:
         break
         
+"""
+### Output of Sample Run
+runfile('C:/Users/######/.spyder-py3/basic_linked_list_operations.py', wdir='C:/Users/#######/.spyder-py3')
+The existing list :  ['California', 'Texas', 'Florida', 'Arizona', 'Georgia']
+Linked List Operations : 
+1 Add element 
+2 Remove element 
+3 Replace element 
+4 Search element 
+5 Exit 
+
+Enter your choice: 1
+Operation: add element
+Before operation:  ['California', 'Texas', 'Florida', 'Arizona', 'Georgia']
+
+Enter the element: Washington
+
+Enter the position: 4
+After operation:  ['California', 'Texas', 'Florida', 'Arizona', 'Washington', 'Georgia']
+Linked List Operations : 
+1 Add element 
+2 Remove element 
+3 Replace element 
+4 Search element 
+5 Exit 
+
+Enter your choice: 2
+Operation: remove element
+Before operation:  ['California', 'Texas', 'Florida', 'Arizona', 'Washington', 'Georgia']
+
+Enter the element: Florida
+After operation:  ['California', 'Texas', 'Arizona', 'Washington', 'Georgia']
+Linked List Operations : 
+1 Add element 
+2 Remove element 
+3 Replace element 
+4 Search element 
+5 Exit 
+
+Enter your choice: 3
+Operation: replace element
+Before operation:  ['California', 'Texas', 'Arizona', 'Washington', 'Georgia']
+
+Enter the element: Hawaii
+
+Enter the position: 4
+After operation:  ['California', 'Texas', 'Arizona', 'Washington', 'Hawaii']
+Linked List Operations : 
+1 Add element 
+2 Remove element 
+3 Replace element 
+4 Search element 
+5 Exit 
+
+Enter your choice: 4
+Operation: search element
+Before operation:  ['California', 'Texas', 'Arizona', 'Washington', 'Hawaii']
+
+Enter the element: Arizona
+Element found at position  2
+After operation:  ['California', 'Texas', 'Arizona', 'Washington', 'Hawaii']
+Linked List Operations : 
+1 Add element 
+2 Remove element 
+3 Replace element 
+4 Search element 
+5 Exit 
+
+Enter your choice: 5
+
+"""
+        
